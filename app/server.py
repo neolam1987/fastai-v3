@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1zkCfitUXRPbmkupi-6IMuuw8gpD9pj6_'
-export_file_name = 'Tree_class_Branch_R50_85%.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1bPpzEqZF4KKpYxBbkMqMqCxJ7iAZpu0T'
+export_file_name = 'Tree_class_Root_R50_80%.pkl'
 
-classes = ['AC', 'FH', 'LC', 'MS', 'MT', 'SH']
+classes = ['Ficus hispida','Acacia confusa','Lophostemon confertus','Macaranga tanarius','Machilus spp','Schefflera heptaphylla']
 path = Path(__file__).parent
 
 app = Starlette()
