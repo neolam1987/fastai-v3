@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1AffhQSYslGNogHl_taCgFfnage6Diav1'
-export_file_name = 'export (race-v1).pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1zkCfitUXRPbmkupi-6IMuuw8gpD9pj6_'
+export_file_name = 'Tree_class_Branch_R50_85%.pkl'
 
-classes = ['asian','black','white']
+classes = ['Ficus hispida','Acacia confusa','Lophostemon confertus','Macaranga tanarius','Machilus spp','Schefflera heptaphylla']
 path = Path(__file__).parent
 
 app = Starlette()
