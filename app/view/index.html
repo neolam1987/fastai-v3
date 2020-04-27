@@ -3,6 +3,12 @@
   <meta charset='utf-8'>
   <link rel='stylesheet' href='../static/style.css'>
   <script src='../static/client.js'></script>
+  <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
 </head>
 <body>
 <div>
@@ -11,11 +17,23 @@
     <p>
       Use images of Tree Base photos
     </p>
-    <p>
+    <h2>
       Sample Photos
-    </p>
-    <img src="https://drive.google.com/uc?export=download&id=1Kxo1bzjBoYDXdR8AAgkgQVNoMPGrsW8l" alt="Acacia confusa -臺灣相思" style="width:500px;height:600px;">
-    <div class='content'>
+    </h2>
+    <table style="width:100%">
+  <tr>
+    <th>Acacia confusa -臺灣相思</th>
+    <th>Machilus spp -潤楠屬</th> 
+    <th>Macaranga tanarius -血桐</th>
+  </tr>
+  <tr>
+    <td><img src="https://drive.google.com/uc?export=download&id=1Kxo1bzjBoYDXdR8AAgkgQVNoMPGrsW8l" alt="Acacia confusa -臺灣相思" style="width:200px;height:300px;"></td>
+     <td><img src="https://drive.google.com/uc?export=download&id=1G_yz-gEP1IMRxxfp_BU66NqzCUVKPV39" alt="Machilus spp -潤楠屬" style="width:200px;height:300px;"></td>
+    <td><img src="https://drive.google.com/uc?export=download&id=18pOIDCWfLILfg9LuRX3Sl_8wKmYo7Bwy" alt="Macaranga tanarius -血桐" style="width:200px;height:300px;"></td>
+  </tr>
+  
+</table>
+   
       <div class='no-display'>
         <input id='file-input'
                class='no-display'
